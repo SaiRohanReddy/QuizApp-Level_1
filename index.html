@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App Level-1</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io (1)/favicon-32x32.png">
+</head>
+<body>
+    <div id="piechart"></div>
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+        <h2 id="question">Question Text</h2>
+        <ul style="list-style-type: none;">
+            <li>
+                <input type="radio" id="a" class="answer" name="answer">
+                <label id="a_text"for="a">Question</label>
+            </li>
+            <li>
+                <input type="radio" id="b" class="answer" name="answer">
+                <label id="b_text"for="b">Question</label>
+            </li>
+            <li>
+                <input type="radio" id="c" class="answer" name="answer">
+                <label id="c_text"for="c">Question</label>
+            </li>
+            <li>
+                <input type="radio" id="d" class="answer" name="answer">
+                <label id="d_text"for="d">Question</label>
+            </li>
+        </ul>
+       
+    </div>
+    <small id="error">Please choose an option</small>
+    <button id="submit">Submit</button>
+    </div>
+</body>
+<script src="app.js"></script>
+    
+</html>
